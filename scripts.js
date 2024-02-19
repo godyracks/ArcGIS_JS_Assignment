@@ -1,5 +1,5 @@
-// Require the necessary modules for the ArcGIS API
-//When the browser loads the script file specified in the  <script tag in the head section of html doc, index.html, the require method asynchronously loads the specified modules.
+// Require the necessary modules for the ArcGIS API i.e Map, Sketch, Home, MapView and config
+//When the browser loads the script file specified in the  <script> tag in the head section of html doc, index.html, the require method asynchronously loads the specified modules.
 // Use arrow function syntax in the require method and pass parameters for the callback function
 require([
     "esri/config",
