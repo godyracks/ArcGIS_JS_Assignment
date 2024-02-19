@@ -1,0 +1,5 @@
+/* here we are selecting the tags on the html document upto the viewDiv id */
+html, body, #viewDiv {
+    width: 100vw;
+    height: 100vh;
+}
