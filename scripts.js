@@ -7,7 +7,7 @@
     "esri/widgets/Home"
   ], function(esriConfig, Map, MapView, Sketch, Home) {
     // Set the API key obtained from https://developers.arcgis.com/api-keys/ on the user dashboard, without the api key most basemap services would require sign in
-   // esriConfig.apiKey = "AAPKfe75a1a0fdf64f4eb98ecedea8361482hVRNN1YTOm4xBGR2FveYly67Eyu7dhvwd_Kl4dOg0QdIUnXDzEA2tk0bJdQS00z6";
+    esriConfig.apiKey = "AAPKfe75a1a0fdf64f4eb98ecedea8361482hVRNN1YTOm4xBGR2FveYly67Eyu7dhvwd_Kl4dOg0QdIUnXDzEA2tk0bJdQS00z6";
 
     // Create a new map with the arcgis-topographic basemap
     const map = new Map({
